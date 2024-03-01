@@ -14,8 +14,8 @@ const Contador = () => {
   return (
     <div>
       <h1>{number}</h1>
-      <button onClick={sumar}>Sumar</button>
       <button onClick={restar}>Restar</button>
+      <button onClick={sumar}>Sumar</button>
     </div>
   );
 };

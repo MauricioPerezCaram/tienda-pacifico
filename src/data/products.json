@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "nombre": "Tomate",
+    "marca": "MarcaTomate",
+    "precio": 120,
+    "imagen": "https://www.finedininglovers.com/es/sites/g/files/xknfdk1706/files/2021-09/tomate-fruta-verdura-hortaliza%C2%A9iStock.jpg",
+    "categoria": "Frutas y Verduras",
+    "stock": 100
+  },
+  {
+    "id": 2,
+    "nombre": "Queso",
+    "marca": "MarcaQueso",
+    "precio": 599,
+    "imagen": "https://ca-times.brightspotcdn.com/dims4/default/1c76c35/2147483647/strip/false/crop/2048x1365+0+0/resize/1486x990!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fd6%2Ff3%2F3a9fc0b23569c8f50d909b19e31b%2Fla-xpm-photo-2014-jan-31-la-fo-homemade-american-cheese-20140201",
+    "categoria": "Lácteos",
+    "stock": 50
+  },
+  {
+    "id": 3,
+    "nombre": "Aceite de Oliva",
+    "marca": "MarcaAceite",
+    "precio": 875,
+    "imagen": "https://i0.wp.com/estilooliva.com.ar/wp-content/uploads/2021/10/500CC-BLEND.jpg?fit=512%2C512&ssl=1",
+    "categoria": "Alimentos y Condimentos",
+    "stock": 30
+  },
+  {
+    "id": 4,
+    "nombre": "Arroz",
+    "marca": "MarcaArroz",
+    "precio": 249,
+    "imagen": "https://www.mayoristanet.com/media/catalog/product/cache/7c7e7e8fca0426f106cb3e3371a80f9c/A/0/A08021_2.JPG",
+    "categoria": "Granos y Cereales",
+    "stock": 80
+  },
+  {
+    "id": 5,
+    "nombre": "Leche",
+    "marca": "MarcaLeche",
+    "precio": 199,
+    "imagen": "https://acdn.mitiendanube.com/stores/093/780/products/serenisima-clasica-751-95fea92d1a27f8e9ab15710914346750-480-0.png",
+    "categoria": "Lácteos",
+    "stock": 60
+  },
+  {
+    "id": 6,
+    "nombre": "Pan Integral",
+    "marca": "MarcaPan",
+    "precio": 325,
+    "imagen": "https://statics.diariomendoza.com.ar/2022/10/6347f7eba9eed.jpg",
+    "categoria": "Panadería",
+    "stock": 40
+  },
+  {
+    "id": 7,
+    "nombre": "Yogur Natural",
+    "marca": "MarcaYogur",
+    "precio": 275,
+    "imagen": "https://media.justo.mx/products/20315_Yogurt_Batido_Yoplait_de_Fresa_1kg_7501040090080.jpg",
+    "categoria": "Lácteos",
+    "stock": 70
+  },
+  {
+    "id": 8,
+    "nombre": "Pasta",
+    "marca": "MarcaPasta",
+    "precio": 179,
+    "imagen": "https://media.f2h.shop/media/catalog/product/cache/ab45d104292f1bb63d093e6be8310c97/7/7/7790070318282.jpg",
+    "categoria": "Granos y Cereales",
+    "stock": 90
+  },
+  {
+    "id": 9,
+    "nombre": "Huevos",
+    "marca": "MarcaHuevos",
+    "precio": 299,
+    "imagen": "https://content21.sabervivirtv.com/medio/2023/11/03/huevos_fe2ba96b_231103092853_1280x720.jpg",
+    "categoria": "Huevos y Lácteos",
+    "stock": 45
+  },
+  {
+    "id": 10,
+    "nombre": "Manzana",
+    "marca": "MarcaManzana",
+    "precio": 99,
+    "imagen": "https://www.tododisca.com/wp-content/uploads/2023/11/Manzana-roja-y-verdes-1.jpg",
+    "categoria": "Frutas y Verduras",
+    "stock": 120
+  }
+]
