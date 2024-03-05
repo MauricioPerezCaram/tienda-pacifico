@@ -22,6 +22,7 @@ const Item = ({ product }) => {
         <h3>{product.nombre}</h3>
         <h4>Precio: $ {product.precio}</h4>
         <h5>Disponible: {product.stock}</h5>
+        <h6>{product.descripcion}</h6>
         <ItemCount
           cantidad={cantidad}
           sumar={sumar}
