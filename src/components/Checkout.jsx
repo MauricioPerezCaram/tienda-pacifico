@@ -1,7 +1,10 @@
-import React, { useRef } from "react";
+import React, { useContext, useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { CartContext } from "../context/CartContext";
 
 const CheckOut = () => {
+  const { carrito, precioTotal, vaciarCarrito } = useContext(CartContext);
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -19,6 +22,12 @@ const CheckOut = () => {
           console.log("FAILED...", error.text);
         }
       );
+
+    const pedido = {
+      productos: carrito,
+      total: precioTotal(),
+    };
+    console.log(pedido);
   };
 
   return (
@@ -29,9 +38,10 @@ const CheckOut = () => {
       <input type="email" name="user_email" />
       <label>Teléfono</label>
       <input type="number" name="user_number" />
-      <label>Message</label>
+      <label>Agrega un mensaje</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <input type="hidden" name="pedido" />
+      <input type="submit" value="Hacer pedido" />
     </form>
   );
 };
